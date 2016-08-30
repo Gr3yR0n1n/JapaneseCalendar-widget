@@ -1,3 +1,4 @@
+# Japanese Calendar
 
 command: "/usr/local/bin/calja"
 
@@ -24,12 +25,12 @@ style: """
   thead tr
     &:first-child td
       font-size: 20px
-      font-weight: 100% 
+      font-weight: 100%
 
     &:last-child td
       font-size: 11px
       padding-bottom: 5px
-      font-weight: 100% 
+      font-weight: 100%
 
   tbody td
     font-size: 15px
@@ -38,7 +39,7 @@ style: """
     font-weight: bold
     background: rgba(#f00, 0.5)
     border-radius: 50%
-    
+
   .grey
     color: rgba(#00A0F0, .7)
 """
