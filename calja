@@ -1,0 +1,62 @@
+#!/bin/bash
+
+
+function getJapaneseMonth {
+  case "$1" in
+    01)
+      echo "一月"
+      ;;
+
+    02)
+      echo "二月"
+      ;;
+
+    03)
+      echo "三月"
+      ;;
+
+    04)
+      echo "四月"
+      ;;
+
+    05)
+      echo "五月"
+      ;;
+
+    06)
+      echo "六月"
+      ;;
+
+    07)
+      echo "七月"
+      ;;
+
+    08)
+      echo "八月"
+      ;;
+
+    09)
+      echo "九月"
+      ;;
+
+    10)
+      echo "十月"
+      ;;
+
+    11)
+      echo "十一月"
+      ;;
+
+    12)
+      echo "十二月"
+      ;;
+
+    *)
+      echo $"Usage: $0 {01|02|03|04|05|06|07|08|09|10|11|12}"
+      exit 1
+
+  esac
+}
+
+cal | awk '(NR==1) {print "     "$2"年 "var;} (NR==2) { print "日 月 火 水 木 金 土";} (NR > 2) {print $0;}' var=$(getJapaneseMonth $(date +%m));
+
