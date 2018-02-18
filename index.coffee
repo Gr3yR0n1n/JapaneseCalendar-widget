@@ -1,6 +1,6 @@
 # Japanese Calendar
 
-command: "/usr/local/bin/calja"
+command: "JapaneseCalendar.widget/calja"
 
 #Set this to true to enable previous and next month dates, or false to disable
 otherMonths: true
