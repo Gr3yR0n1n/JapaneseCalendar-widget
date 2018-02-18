@@ -2,6 +2,5 @@
 
 Installation:
 
-1. Move calendar.widget to your Ubersicht widgets folder.
-2. Copy/link calja to /usr/local/bin.
-3. Enjoy!
+1. Move JapaneseCalendar.widget to your Ubersicht widgets folder.
+2. Enjoy!
